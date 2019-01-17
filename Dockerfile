@@ -48,6 +48,7 @@ RUN apt-get -y update \
     mono-complete nuget \
     net-tools \
     gcc-mingw-w64-x86-64 \
+    git \
   && apt-get -y install --no-install-recommends python-dev python-pip \
   && python2 -m pip install --upgrade pip setuptools wheel \
   && apt-get -y install --no-install-recommends python3-dev python3-pip \
